@@ -13,3 +13,11 @@ create table teacher(
     age int,
     country varchar(50)
 );
+
+select * from class;
+
+alter table class add primary key (id);
+
+insert into class values (1, 'triet');
+
+desc class;
