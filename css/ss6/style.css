@@ -1,0 +1,26 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+}
+
+h1{
+    font-size: 48px;
+    margin-bottom: 5px;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+p{
+    font-size: 22px;
+    text-align: justify;
+    text-indent: 50px;
+    line-height: 1.7;
+}
+
+.blue{
+    color: blue;
+    font-weight: bold;
+}
