@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial;
+}
+
+header{
+    background: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    padding: 20px;
+    background: #444;
+}
+
+nav{
+    display: flex;
+    flex: 1;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+nav a:hover,
+nav .active{
+    background: black;
+}
+
+.login{
+    padding: 20px;
+}
+
+.container{
+    display: flex;
+    min-height: 600px;
+}
+
+.left{
+    width: 20%;
+    background: #f1f1f1;
+    padding-top: 20px;
+}
+
+.left a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    margin: 20px 0;
+}
+
+main{
+    width: 60%;
+    padding: 20px;
+}
+
+.right{
+    width: 20%;
+    background: #f1f1f1;
+    padding: 20px;
+}
+
+.ads{
+    border: 1px solid gray;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+footer{
+    background: #555;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+p{
+    margin-bottom: 20px;
+}
+
+h2{
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        flex-direction: column;
+    }
+
+    .left,
+    main,
+    .right{
+        width: 100%;
+    }
+
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        width: 100%;
+    }
+
+    nav a{
+        text-align: center;
+    }
+
+    .login{
+        width: 100%;
+        text-align: center;
+    }
+}
