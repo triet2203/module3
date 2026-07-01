@@ -1,0 +1,29 @@
+.gallery-item{
+    padding:10px;
+    width:25%;
+}
+
+.card img{
+    height:200px;
+    object-fit:cover;
+}
+
+/* <700px */
+
+@media (max-width:700px){
+
+    .gallery-item{
+        width:50%;
+    }
+
+}
+
+/* <500px */
+
+@media (max-width:500px){
+
+    .gallery-item{
+        width:100%;
+    }
+
+}
